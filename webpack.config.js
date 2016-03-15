@@ -4,8 +4,8 @@ var path = require("path");
 module.exports = {
   entry: "./components/app.jsx",
   output: {
-    path: path.resolve(__dirname, "build"),
-    publicPath: "/",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/dist",
     filename: "bundle.js"
   },
   module: {
