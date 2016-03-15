@@ -16,7 +16,7 @@ const Todos = ({todos, dispatch}) => {
           e.target.value = "";
         }
       }}/>
-      
+
       {todos.map(todo => <p key={todo.id}>{todo.value}</p>)}
     </div>
   );

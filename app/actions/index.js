@@ -4,7 +4,7 @@ export function addTodo(todo) {
     type: 'addTodo',
     todo: {
       value: todo,
-      id: id++ 
+      id: id++
     }
   };
 }
