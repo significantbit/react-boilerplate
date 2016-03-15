@@ -17,7 +17,11 @@ module.exports = {
         query: {
           presets: ["react", "es2015"]
         }
-      }
+      },
+      {
+        test: /\.styl$/,
+        loaders: ["style", "css", "stylus"]
+      },
     ]
   },
   resolve: {
