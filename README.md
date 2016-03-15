@@ -1,19 +1,20 @@
 # React boilerplate
 Boilerplate for React, Redux and Immutable.
+It uses Stylus for easy writing of css.
 
-The project is built with webpack
+The project is built with webpack.
 
 ## Installation
-Do a "npm install" in the application directory, this will install all dependencies from package.json 
+Do a "npm install" in the application directory, this will install all dependencies from package.json
 
 ###Install Linter
-The linter will enforce our coding standards for react projects and are defined in .eslintrc.js 
+The linter will enforce our coding standards for react projects and are defined in .eslintrc.js
 
 1. npm install -g eslint eslint-plugin-react
 2. Install Sublime Linter 3
 3. Install Sublime Linter contrib eslint
 
-###Install Babel package for sublime 
+###Install Babel package for sublime
 This sublime package enables correct syntax highlighting for jsx and es6
 
 1. Install sublime package babel
